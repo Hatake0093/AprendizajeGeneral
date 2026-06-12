@@ -41,6 +41,6 @@
     public static void Inicializar(string tituloDocumento)
     {
         string contenido = $"# {tituloDocumento}\n\n*Generado el {DateTime.Now:dd/MM/yyyy HH:mm:ss}*\n\n---\n\n";
-        File.WriteAllText(NombreArchivo, contenido); // WriteAllText sobrescribe todo
+        File.WriteAllText(NombreArchivo, contenido); 
     }
 }
